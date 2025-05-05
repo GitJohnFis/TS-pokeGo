@@ -1,5 +1,4 @@
 import * as readline from "readline";
-
 function getPlayerInput() {
     return new Promise((resolve) => {
         const rl = readline.createInterface({
@@ -74,7 +73,6 @@ async function triggerLocationSpecificEncounter(state, locationName) {
         console.error("Error during Pokémon encounter:", error);
     }
 }
-
 async function attemptCatchPokemon(state, pokemonName) {
     try {
         // Fetch more details about the Pokemon if needed
@@ -113,7 +111,6 @@ async function attemptCatchPokemon(state, pokemonName) {
         console.error("Error while attempting to catch Pokémon:", error);
     }
 }
-
 async function startBattle(state, pokemonName) {
     try {
         console.log(`\nYou are battling ${pokemonName}...`);

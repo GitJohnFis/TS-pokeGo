@@ -2,6 +2,76 @@
 > pokedex@1.0.0 dev
 > npx tsc && node dist/main.js
 
-pokedex > Your command was: what
-pokedex > Your command was: exit
+pokedex > canalave-city-area
+eterna-city-area
+pastoria-city-area
+sunyshore-city-area
+sinnoh-pokemon-league-area
+oreburgh-mine-1f
+oreburgh-mine-b1f
+valley-windworks-area
+eterna-forest-area
+fuego-ironworks-area
+mt-coronet-1f-route-207
+mt-coronet-2f
+mt-coronet-3f
+mt-coronet-exterior-snowfall
+mt-coronet-exterior-blizzard
+mt-coronet-4f
+mt-coronet-4f-small-room
+mt-coronet-5f
+mt-coronet-6f
+mt-coronet-1f-from-exterior
+pokedex > Exploring mt-coronet-exterior-snowfall...
+Found Pokemon:
+ - clefairy
+ - golbat
+ - machoke
+ - noctowl
+ - loudred
+ - nosepass
+ - medicham
+ - lunatone
+ - solrock
+ - absol
+ - chingling
+ - bronzong
+ - snover
+ - abomasnow
+
+You explored the area safely without any wild Pokémon encounters.
+pokedex > Throwing a Pokeball at absol...
+absol escaped!
+pokedex > Throwing a Pokeball at noctowl...
+noctowl was caught!
+You may now inspect it with the inspect command.
+pokedex > Name: noctowl
+Height: 16
+Weight: 408
+Stats:
+  -hp: 100
+  -attack: 50
+  -defense: 50
+  -special-attack: 86
+  -special-defense: 96
+  -speed: 70
+Types:
+  - normal
+  - flying
+pokedex > Your Pokedex:
+ - noctowl
+pokedex > Unknown command: "encounter". Type "help" for a list of commands.
 pokedex > 
+Welcome to the Pokedex!
+Usage:
+
+help: Displays a help message
+exit: Exit the Pokedex
+map: Get the next page of locations
+mapb: Get the previous page of locations
+explore <location_name>: Explore a location
+catch <pokemon_name>: Attempt to catch a pokemon
+inspect <pokemon_name>: View details about a caught pokemon
+pokedex: See all the pokemon you've caught
+
+pokedex > Closing the Pokedex... Goodbye!

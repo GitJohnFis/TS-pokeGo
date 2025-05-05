@@ -27,6 +27,7 @@ export function initState(cacheInterval: number) {
   });
 
   return {
+    activePokemon: "", // The name of the currently active Pokemon fixed
     readline: rl,
     commands: getCommands(),
     pokeAPI: new PokeAPI(cacheInterval),
