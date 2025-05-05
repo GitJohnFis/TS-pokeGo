@@ -1,0 +1,7 @@
+
+> pokedex@1.0.0 dev
+> npx tsc && node dist/main.js
+
+pokedex > Your command was: what
+pokedex > Your command was: exit
+pokedex > 
