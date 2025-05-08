@@ -1,7 +1,8 @@
 
-> pokedex@1.0.0 dev
+> ts-pokego@1.0.0 dev
 > npx tsc && node dist/main.js
 
+pokedex > Unknown command: "charmander". Type "help" for a list of commands.
 pokedex > canalave-city-area
 eterna-city-area
 pastoria-city-area
@@ -22,56 +23,78 @@ mt-coronet-4f-small-room
 mt-coronet-5f
 mt-coronet-6f
 mt-coronet-1f-from-exterior
-pokedex > Exploring mt-coronet-exterior-snowfall...
-Found Pokemon:
- - clefairy
- - golbat
- - machoke
- - noctowl
- - loudred
- - nosepass
- - medicham
- - lunatone
- - solrock
- - absol
- - chingling
- - bronzong
- - snover
- - abomasnow
-
-You explored the area safely without any wild Pokémon encounters.
-pokedex > Throwing a Pokeball at absol...
-absol escaped!
-pokedex > Throwing a Pokeball at noctowl...
-noctowl was caught!
+pokedex > mt-coronet-1f-route-216
+mt-coronet-1f-route-211
+mt-coronet-b1f
+great-marsh-area-1
+great-marsh-area-2
+great-marsh-area-3
+great-marsh-area-4
+great-marsh-area-5
+great-marsh-area-6
+solaceon-ruins-2f
+solaceon-ruins-1f
+solaceon-ruins-b1f-a
+solaceon-ruins-b1f-b
+solaceon-ruins-b1f-c
+solaceon-ruins-b2f-a
+solaceon-ruins-b2f-b
+solaceon-ruins-b2f-c
+solaceon-ruins-b3f-a
+solaceon-ruins-b3f-b
+solaceon-ruins-b3f-c
+pokedex > solaceon-ruins-b3f-d
+solaceon-ruins-b3f-e
+solaceon-ruins-b4f-a
+solaceon-ruins-b4f-b
+solaceon-ruins-b4f-c
+solaceon-ruins-b4f-d
+solaceon-ruins-b5f
+sinnoh-victory-road-1f
+sinnoh-victory-road-2f
+sinnoh-victory-road-b1f
+sinnoh-victory-road-inside-b1f
+sinnoh-victory-road-inside
+sinnoh-victory-road-inside-exit
+ravaged-path-area
+oreburgh-gate-1f
+oreburgh-gate-b1f
+stark-mountain-area
+stark-mountain-entrance
+stark-mountain-inside
+sendoff-spring-area
+pokedex > mt-coronet-1f-route-216
+mt-coronet-1f-route-211
+mt-coronet-b1f
+great-marsh-area-1
+great-marsh-area-2
+great-marsh-area-3
+great-marsh-area-4
+great-marsh-area-5
+great-marsh-area-6
+solaceon-ruins-2f
+solaceon-ruins-1f
+solaceon-ruins-b1f-a
+solaceon-ruins-b1f-b
+solaceon-ruins-b1f-c
+solaceon-ruins-b2f-a
+solaceon-ruins-b2f-b
+solaceon-ruins-b2f-c
+solaceon-ruins-b3f-a
+solaceon-ruins-b3f-b
+solaceon-ruins-b3f-c
+pokedex > Throwing a Pokeball at mew...
+mew escaped!
+pokedex > Throwing a Pokeball at mew...
+mew escaped!
+pokedex > Throwing a Pokeball at mewtwo...
+mewtwo escaped!
+pokedex > Throwing a Pokeball at steelix...
+steelix escaped!
+pokedex > Error fetching pokemon 'evee': 404 Not Found
+pokedex > Throwing a Pokeball at eevee...
+eevee escaped!
+pokedex > Throwing a Pokeball at squirtle...
+squirtle was caught!
 You may now inspect it with the inspect command.
-pokedex > Name: noctowl
-Height: 16
-Weight: 408
-Stats:
-  -hp: 100
-  -attack: 50
-  -defense: 50
-  -special-attack: 86
-  -special-defense: 96
-  -speed: 70
-Types:
-  - normal
-  - flying
-pokedex > Your Pokedex:
- - noctowl
-pokedex > Unknown command: "encounter". Type "help" for a list of commands.
 pokedex > 
-Welcome to the Pokedex!
-Usage:
-
-help: Displays a help message
-exit: Exit the Pokedex
-map: Get the next page of locations
-mapb: Get the previous page of locations
-explore <location_name>: Explore a location
-catch <pokemon_name>: Attempt to catch a pokemon
-inspect <pokemon_name>: View details about a caught pokemon
-pokedex: See all the pokemon you've caught
-
-pokedex > Closing the Pokedex... Goodbye!

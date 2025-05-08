@@ -23,6 +23,25 @@ export function startREPL(state) {
         state.readline.prompt();
     });
 }
+// import { createInterface } from "readline";
+// export function startREPL() {
+//   const rl = createInterface({
+//     input: process.stdin,
+//     output: process.stdout,
+//     prompt: "pokedex > ",
+//   });
+//   rl.prompt();
+//   rl.on("line", async (input) => {
+//     const words = cleanInput(input);
+//     if (words.length === 0) {
+//       rl.prompt();
+//       return;
+//     }
+//     const commandName = words[0];
+//     console.log(`Your command was: ${commandName}`);
+//     rl.prompt();
+//   });
+// }
 // REPL (Read-Eval-Print Loop) for the CLI
 export function cleanInput(input) {
     return input

@@ -13,7 +13,7 @@ type CacheEntry<T> = {
       this.#startReapLoop();
     }
   
-    add<T>(key: string, value: T) {
+    add<T>(key: string, value: T) { // val: string, interval: number,
       const entry: CacheEntry<T> = {
         createdAt: Date.now(),
         val: value,
